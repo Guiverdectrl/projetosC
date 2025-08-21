@@ -28,8 +28,9 @@ int main(){
     printf("o produto %s tem estoque mínimo %d\n", produtoA, ResultadoA);
     printf("o produto %s tem estoque mínimo %d\n", produtoB, ResultadoB);
 
-    printf("o valor total de A (%.2f) é maior que o valor total de B (%.2f)", 
-                     EstoqueA * ValorA, EstoqueB * ValorB,
-                  (EstoqueA * ValorA) > (EstoqueB * ValorB) );
-
+    printf("o valor total de A (%.2f) é maior que o valor total de B (%.2f) %d\n", 
+    EstoqueA * ValorA,
+    EstoqueB * ValorB, 
+    (EstoqueA * ValorA) > (EstoqueB * ValorB) );
+    
 }
