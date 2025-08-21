@@ -108,6 +108,8 @@ int main(){
     
     printf("Carta 2 venceu: \n");
 
+    //Comparação de cartas
+    printf("");
 
     return (0);
     //finalizei com o return (0);.
