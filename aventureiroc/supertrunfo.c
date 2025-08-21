@@ -43,12 +43,11 @@ int main(){
 
     printf("Pontos turísticos: %d \n", Pontos1);
 
-    //Para calcular a Pib per capita multipliquei o pib por 1 bilhão e dividi pela população
-
+    //para calcular a densidade dividi a população pela area
     Densidade1 = (População1 / Area1);
     printf("Densidade Populacional: %.2f \n", Densidade1);
 
-    //para calcular a densidade dividi a população pela area
+    //Para calcular a Pib per capita multipliquei o pib por 1 bilhão e dividi pela população
     Pibpercapita1 = (Pib1 * 1000000000) / População1;
     printf("Pib per capita: %2.f reais \n\n", Pibpercapita1);
 
