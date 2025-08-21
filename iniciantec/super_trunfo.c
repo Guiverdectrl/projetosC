@@ -4,8 +4,8 @@ int main(){
     //Carta 01
     //Primeiro criei as variáveis
     //Usei o char[] para os textos, o int para  números inteiros e o float para números flutuantes.
-    //Estabeleci uma quantidade de caracteres em cada char para ser possível digitar um nome grande de um estado.
-    char Estado1[30];
+    //Estabeleci uma quantidade de caracteres em cada char para ser possível digitar mais livrimente.
+    char Estado1[20];
     char Codigo1[4];
     char Cidade1[30];
     int População1;
@@ -31,10 +31,10 @@ int main(){
     // "\n" serve para pular uma linha, quem da valor as variáveis são os usuários
     printf("Carta 01: \n");
 
-    printf("Digite o nome do Estado: \n", Estado2);
+    printf("Digite o Estado (A-H): \n", Estado2);
     scanf("%s", &Estado2);
 
-    printf("Digite o Código da carta: \n", Codigo1);
+    printf("Digite o Código da carta (Ex: A01): \n", Codigo1);
     scanf("%s", &Codigo1);
 
     printf("Digite o nome da cidade: \n", Cidade1);
@@ -58,10 +58,10 @@ int main(){
 
     printf("Carta 02: \n");
 
-    printf("Digite o nome do Estado: \n", Estado2);
+    printf("Digite o nome do Estado (A-H): \n", Estado2);
     scanf("%s", &Estado2);
 
-    printf("Digite o Código da Carta: \n", Codigo2);
+    printf("Digite o Código da Carta (Ex: A01): \n", Codigo2);
     scanf("%s", &Codigo2);
 
     printf("Digite o nome da Cidade:\n", Cidade2);
@@ -84,6 +84,7 @@ int main(){
     //usei o comando print para listar em ordem todos os dados digitados pelo usuário, coloquei os com especificações iguais juntos para organizar.
 
     printf("Carta 01: \n");
+
     printf("Estado: %s\nCódigo: %s\nCidade: %s\n", Estado1, Codigo1, Cidade1);
 
     printf("População: %d\n", População1);
@@ -96,6 +97,7 @@ int main(){
     
 
     printf("Carta 02: \n");
+
     printf("Estado: %s\nCódigo: %s\nCidade: %s\n", Estado2, Codigo2, Cidade2);
 
     printf("População: %d\n", População2);
